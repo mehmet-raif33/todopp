@@ -1,9 +1,11 @@
+import InputJS from "./components/InputJS";
+import ListJs from "./components/ListJs";
+
 function App() {
   return (
     <div className="App">
-      <h2>
-        Selamlar Dostlar!!
-      </h2>
+      <InputJS />
+      <ListJs />
     </div>
   );
 }
