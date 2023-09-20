@@ -8,16 +8,6 @@ export const todoapp = createSlice({
             data:'Play Football',
             do: false
         },
-        {
-            id: 2,
-            data:'Go To The Gym',
-            do: true
-        },
-        {
-            id: 3,
-            data:'Do Your Homework',
-            do: false
-        },
     ],
     reducers: {
         reload: (state,action) => {
